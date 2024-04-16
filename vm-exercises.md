@@ -9,69 +9,67 @@
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [X] Add datasets used to the `datasets/` folder: SuperStoreUS-2015_dataset.xlsm
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix` or `ex-1-initial.yxmd`, depending if you are auditioning for a Tableau/Power BI/Alteryx course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix` or `ex-1-sol.yxmd`
+- [X] **Initial**: Add file to the `exercises/`  folder with the name: SuperStoreUS-2015_dataset_vm_exercise_1.xlsm
+- [X] **Solution**: Add file to the `exercises/`  folder with the name: SuperStoreUS-2015_dataset_vm_exercise_1.xlsm, which contains macro titled MacroVMExercise1
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+Create and calculate new "Order Date" related fields in the SuperStore dataset, which will aid Data Analysts in data mining orders by different "Order Date" slices.
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+SuperStore recognizes that customer service, customer retention, and customer repeat are critical to its success. One aspect of excellent customer service is in the timely processing and shipment of orders.  SuperStore would like to analyze this order-to-ship days and see if there is any connection between the number of days and the time of year the order is received.  If there is a correlation, SuperStore can take the necessary steps to adjust any flawed underlying operational processes.
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
-
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Create, populate, and bold new order_month column: Month of "Order Date" column
+- Create, populate, and bold new order_quarter column: Quarter of "Order Date" column
+- Create, populate, and bold new order_to_ship_days column: Number of days between "Order Date" and "Ship Date"
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+How will a Data Analyst determine inefficiencies between the time an order is received and the order is shipped?  Is there any correlation between the number of days between "Order Date" and "Ship Date" and the year, month or quarter the order is received?
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+<img width="1229" alt="ScreenshotMacroVMExercise1" src="https://github.com/jayneygulley/sme-bi-course-application/assets/166956603/fe9860b0-55ff-4f52-ad43-ffd25353da22">
+
 
 ## 2nd VM Exercise
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [X] Add datasets used to the `datasets/` folder: SuperStoreUS-2015_dataset.xlsm
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-2-intial.twbx` or `ex-1-initial.yxmd`, depending if you are auditioning for a Tableau/Power BI/Alteryx course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-2-sol.twbx` or `ex-2-sol.pbix` or `ex-1-sol.yxmd`
+- [X] **Initial**: Add file to the `exercises/`  folder with the name: SuperStoreUS-2015_dataset_vm_exercise_2.xlsm
+- [X] **Solution**: Add file to the `exercises/`  folder with the name: SuperStoreUS-2015_dataset_vm_exercise_2.xlsm, which contains macro titled MacroVMExercise2
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+Create and calculate new "Sales" and "Profit" related fields in the SuperStore dataset, which will aid Data Analysts in gaining key insights into the financial performance and efficiency of the business.
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+SuperStore understands that accurate and comprehensive financial metrics need to be available to management.  Sales and Profit data is extremely important; however, financial ratios and percentages help management view the business' financial numbers in more insightful context.    
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
-
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Create, populate, bold, and percentage format new profit_to_sales column: What percent of a sale is profit
+- Create, populate, bold, and percentage format new shipping_to_sales column: Shipping cost to sales ratio
+- Create, populate, bold, and percentage format new discount_to_unit_price column: Discount rate
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+How will a Data Analyst determine metrics to assess a firm's financial health?
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+<img width="1394" alt="ScreenshotMacroVMExercise2" src="https://github.com/jayneygulley/sme-bi-course-application/assets/166956603/ff923a0d-9fd8-4ad3-b6ce-cf7cd0c27cc2">
+
+
+
 
